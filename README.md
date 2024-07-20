@@ -5,5 +5,7 @@ To get the Django project up and running on your local machine, follow these ste
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone [<repository-url>](https://github.com/aman220/What-Byte-Assignment)
+2. **Start Server**
+   ```bash
+   python manage.py runserver
