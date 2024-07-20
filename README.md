@@ -21,3 +21,5 @@ To get the Django project up and running on your local machine, follow these ste
 2. **Start Server**
    ```bash
    python manage.py runserver
+
+   **here is the demo link**  https://drive.google.com/file/d/1X22B7ZrWMYOZ6xGrp9Cu8eYLEP_60Kha/view?usp=sharing
