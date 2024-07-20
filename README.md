@@ -1,4 +1,7 @@
 # What-Byte-Assignment
+User authentication with email or username and password.Pages for login, signup, forgot password, change password, dashboard, and profile.
+Restrict access to certain pages based on authentication status.
+
  ## Features 
  - **User Authentication**: Log in with email or username and password.
 - **Login Page**: Username/Email and Password fields, with Sign Up and Forgot Password links.
