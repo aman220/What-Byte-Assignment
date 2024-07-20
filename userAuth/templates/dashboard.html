@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>User Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center h-screen bg-gradient-to-r from-indigo-400 to-purple-500">
+    <div class="bg-white p-10 rounded-lg shadow-2xl w-full max-w-md text-center">
+      <p class="text-2xl font-bold text-gray-800 mb-6">Hi, {{ user.username }}!</p>
+      <div class="space-y-4">
+        <a href="{% url 'profile' %}" class="block w-full bg-indigo-500 text-white py-3 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">Profile</a>
+        <a href="{% url 'change_password' %}" class="block w-full bg-indigo-500 text-white py-3 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">Change Password</a>
+        <a href="{% url 'logout' %}" class="block w-full bg-indigo-500 text-white py-3 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">Logout</a>
+      </div>
+    </div>
+  </body>
+</html>
